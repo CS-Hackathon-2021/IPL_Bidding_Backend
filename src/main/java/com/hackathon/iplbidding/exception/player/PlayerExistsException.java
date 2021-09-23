@@ -4,6 +4,6 @@ import com.hackathon.iplbidding.exception.GeneralException;
 
 public class PlayerExistsException extends GeneralException {
     public PlayerExistsException(final String playerId) {
-        super("Player with name: " + playerId + " already exists");
+        super("Player with id: " + playerId + " already exists");
     }
 }

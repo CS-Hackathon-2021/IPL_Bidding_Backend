@@ -52,7 +52,7 @@ public class PlayerService implements IPlayerService{
         }
         player.setId(playerOptional.get().getId());
         Player updatedPlayer = playerRepository.save(player);
-        logger.info("Player with name {} has been updated", player.getName());
+        logger.info("Player with id {} has been updated", player.getId());
         return updatedPlayer;
     }
 

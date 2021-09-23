@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class PlayerServiceConfig {
     @Bean
-    public IPlayerService articleService(final PlayerRepository playerRepository) {
+    public IPlayerService playerService(final PlayerRepository playerRepository) {
         return new PlayerService(playerRepository);
     }
 }
