@@ -4,7 +4,7 @@ import lombok.Builder;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 
-import java.sql.Timestamp;
+import java.util.Date;
 import java.util.List;
 
 @Data
@@ -17,6 +17,6 @@ public class BiddingSession {
     private Bidder topBidder;
     private Player currentPlayer;
     private int currentRound;
-    private String startTime;
-    private String endTime;
+    private Date startTime;
+    private Date endTime;
 }

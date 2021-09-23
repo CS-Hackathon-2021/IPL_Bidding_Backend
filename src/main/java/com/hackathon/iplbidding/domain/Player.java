@@ -20,4 +20,5 @@ public class Player {
     private int runsScored;
     private boolean isSold;
     private long currentBid;
+    private String imageURL;
 }

@@ -14,4 +14,5 @@ public class Bidder {
     private String teamName;
     private List<Player> playerList;
     private long moneyLeft;
+    private String imageURL;
 }
