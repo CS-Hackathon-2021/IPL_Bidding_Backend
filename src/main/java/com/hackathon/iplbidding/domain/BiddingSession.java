@@ -17,6 +17,6 @@ public class BiddingSession {
     private Bidder topBidder;
     private Player currentPlayer;
     private int currentRound;
-    private Timestamp startTime;
-    private Timestamp endTime;
+    private String startTime;
+    private String endTime;
 }
