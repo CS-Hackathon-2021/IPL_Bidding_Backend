@@ -19,4 +19,5 @@ public class Player {
     private int noOfWickets;
     private int runsScored;
     private boolean isSold;
+    private long currentBid;
 }
